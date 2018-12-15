@@ -1,0 +1,280 @@
+$beyaz:#fff;
+$gri:gray;
+$kirmizi:#ff4040;
+$acikkirem:#E7E8EA;
+$acikgri:#5c5c5c;
+$krem:#f2f2f2;
+$mavi:#547b91;
+$acikmavi:#79a7b9;
+$turuncu:#f6906c;
+$blue:#567b8a;
+$siyah:#1c2427;
+$koyumavi:#1c2427;
+$mor:#8a3ab9;
+$simsiyah:#000;
+$masmavi:#3b5998;
+@import url('https://fonts.googleapis.com/css?family=Dosis&subset=latin-ext');
+*{
+    font-family: 'Dosis', sans-serif;
+
+}
+#menu{
+    background:$beyaz;
+    .nav-link{
+        font-size: 14px;
+        color:$gri;
+        &:hover{
+            color: $kirmizi;
+        }
+    }
+    .nav-1{
+        border-right: 1px solid $simsiyah;
+    }
+    .nav-end{
+        color: $kirmizi;
+    }
+}
+#head{
+    background: url('https://mutlubiev.com/Images/home-page/anasayfa-desktop.jpg');
+    height: 500px;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: $kirmizi;
+    border-bottom: 5px solid $kirmizi;
+    p strong{
+        color: $beyaz;
+    }
+}
+.btn-red{
+    background: rgb(243, 81, 81);
+    color: $beyaz;
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.btn-white{
+    background: $beyaz;
+    color: $kirmizi;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.btn-red:hover{
+    background: $kirmizi;
+    color: $beyaz;
+    text-decoration: none;
+}
+.btn-white:hover{
+    color: $kirmizi;
+}
+#home-page {
+    .col-md-2{
+        img{
+            color: $kirmizi;
+            width:50px;
+            height:50px;
+        }
+        &:hover{
+            color: $beyaz !important;
+            background: $kirmizi;
+            
+                .image{
+                    opacity:0;
+                }
+            
+            .hover-image{
+               opacity: 1;
+            }
+        }
+    }
+    .hover-image{
+        position: absolute;
+        left: 70px;
+        opacity:0;
+    }
+    
+}
+#services{
+    background: $acikkirem;
+    color: $acikgri;
+    .border-bottom{
+        border-bottom:4px solid $acikmavi !important;
+    }
+    .red-span{
+        color: $kirmizi;
+    }
+}
+#card{
+    background: $krem;
+    color: #5c5c5c;
+    font-size: 15px;
+    .red-span{
+        color: $kirmizi;
+    }
+    .nav{
+   
+        border-bottom: 10px;
+        justify-content: center;
+        .nav-link{
+            p {
+                    font-size: 14px;
+                    line-height: 1.75em;
+                    font-weight:200;
+            }
+            img {
+                height:50px;
+                width:50px;
+                margin-bottom:16px;
+            }
+        }
+        .nav-item{
+            border: 1px solid lightgray;
+            width: 16%;
+            margin-left: 31px;
+            border-radius: 5px;
+            background: $beyaz;
+            border-bottom:3px solid $kirmizi;
+        }
+    }
+
+}
+#basin{
+    .blue-span{
+        color:$mavi !important;
+    }
+    .nav{
+        .nav-item{
+            margin: 20px;
+            filter: grayscale(100%);
+            &:hover{
+                filter: grayscale(0%);
+            }
+            
+        }
+    }
+}
+#time{
+    background: $krem;
+    color: $acikgri;
+    .red-span{
+        color: $kirmizi;
+        margin: 20px;
+    }
+    .btn-red-2{
+        background: $kirmizi;
+        color: $beyaz;
+        padding: 10px;  
+        border-radius: 2px;
+        font-size: 12px;
+        margin: 10px;
+        &:hover{
+            background: $krem;
+            color: $kirmizi;
+            border: 1px solid $kirmizi;
+        }
+    }
+}
+#slider{
+    .slider-col{
+        border: 1px solid $acikmavi;
+        width: 350px !important;
+        height: 500px;
+      padding:50px;
+    }
+}
+.orange{
+    
+    margin-bottom:20px;
+}
+.card-body{
+    background: $turuncu;
+    color: $beyaz;
+}
+.btn-primary{
+    background: $turuncu;
+    color: $beyaz;
+    border: 1px solid $turuncu;
+}
+.btn-primary:hover{
+    background: $beyaz;
+    color: $acikgri;
+    border: 1px solid $beyaz;
+}
+#services-2{
+    border-bottom: 5px solid $kirmizi;
+    border-radius: 5px;
+}
+#questions{
+    color: $acikgri;
+    .btn-blue{ 
+        color: $beyaz;
+        background: $acikmavi;
+        padding: 10px;
+        &:hover{
+            background:$mavi;
+        }
+    }
+}
+#district {
+    background: $krem;
+    color: $mavi;
+    .nav{
+        .nav-link{
+            color: $acikgri;
+            border: 1px solid $acikgri;
+            border-radius: 10px;
+            margin-left: 10px;
+            &:hover{
+                color: $beyaz;
+                background: $mavi;
+                border: 1px solid $mavi;
+            }
+            
+        }
+    }
+}
+#footer{
+    background: $siyah;
+    a{
+        color: $beyaz;
+        .fab{
+            border-radius: 5px;
+            border: 1px solid $beyaz;
+            font-size: 30px;
+            padding: 10px;
+            margin-right: 20px;
+            &:first-child:hover{
+                color: $masmavi;
+            }
+        }
+        .fa-instagram:hover{
+            color: $mor !important;
+        }
+    }
+    p {
+        color:$beyaz;
+        text-align:left;
+    
+    }
+    .nav-link{
+        padding-left:0px;
+    }
+}
+@media screen and (max-width:768px)
+{
+    #card{
+        .nav-item{
+            width: 39% !important;
+            float: left;
+            margin: 5px;
+        }
+    }
+#district{
+    li.nav-item{
+        margin:5px;
+    }
+}
+}

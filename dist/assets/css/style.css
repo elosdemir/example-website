@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis&subset=latin-ext");
+* {
+  font-family: 'Dosis', sans-serif; }
+
+#menu {
+  background: #fff; }
+  #menu .nav-link {
+    font-size: 14px;
+    color: gray; }
+    #menu .nav-link:hover {
+      color: #ff4040; }
+  #menu .nav-1 {
+    border-right: 1px solid #000; }
+  #menu .nav-end {
+    color: #ff4040; }
+
+#head {
+  background: url("https://mutlubiev.com/Images/home-page/anasayfa-desktop.jpg");
+  height: 500px;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  width: 100%;
+  color: #ff4040;
+  border-bottom: 5px solid #ff4040; }
+  #head p strong {
+    color: #fff; }
+
+.btn-red {
+  background: #f35151;
+  color: #fff;
+  padding: 10px;
+  width: 300px;
+  margin: 5px;
+  border-radius: 10px; }
+
+.btn-white {
+  background: #fff;
+  color: #ff4040;
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  margin: 5px; }
+
+.btn-red:hover {
+  background: #ff4040;
+  color: #fff;
+  text-decoration: none; }
+
+.btn-white:hover {
+  color: #ff4040; }
+
+#home-page .col-md-2 img {
+  color: #ff4040;
+  width: 50px;
+  height: 50px; }
+
+#home-page .col-md-2:hover {
+  color: #fff !important;
+  background: #ff4040; }
+  #home-page .col-md-2:hover .image {
+    opacity: 0; }
+  #home-page .col-md-2:hover .hover-image {
+    opacity: 1; }
+
+#home-page .hover-image {
+  position: absolute;
+  left: 70px;
+  opacity: 0; }
+
+#services {
+  background: #E7E8EA;
+  color: #5c5c5c; }
+  #services .border-bottom {
+    border-bottom: 4px solid #79a7b9 !important; }
+  #services .red-span {
+    color: #ff4040; }
+
+#card {
+  background: #f2f2f2;
+  color: #5c5c5c;
+  font-size: 15px; }
+  #card .red-span {
+    color: #ff4040; }
+  #card .nav {
+    border-bottom: 10px;
+    justify-content: center; }
+    #card .nav .nav-link p {
+      font-size: 14px;
+      line-height: 1.75em;
+      font-weight: 200; }
+    #card .nav .nav-link img {
+      height: 50px;
+      width: 50px;
+      margin-bottom: 16px; }
+    #card .nav .nav-item {
+      border: 1px solid lightgray;
+      width: 16%;
+      margin-left: 31px;
+      border-radius: 5px;
+      background: #fff;
+      border-bottom: 3px solid #ff4040; }
+
+#basin .blue-span {
+  color: #547b91 !important; }
+
+#basin .nav .nav-item {
+  margin: 20px;
+  filter: grayscale(100%); }
+  #basin .nav .nav-item:hover {
+    filter: grayscale(0%); }
+
+#time {
+  background: #f2f2f2;
+  color: #5c5c5c; }
+  #time .red-span {
+    color: #ff4040;
+    margin: 20px; }
+  #time .btn-red-2 {
+    background: #ff4040;
+    color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 12px;
+    margin: 10px; }
+    #time .btn-red-2:hover {
+      background: #f2f2f2;
+      color: #ff4040;
+      border: 1px solid #ff4040; }
+
+#slider .slider-col {
+  border: 1px solid #79a7b9;
+  width: 350px !important;
+  height: 500px;
+  padding: 50px; }
+
+.orange {
+  margin-bottom: 20px; }
+
+.card-body {
+  background: #f6906c;
+  color: #fff; }
+
+.btn-primary {
+  background: #f6906c;
+  color: #fff;
+  border: 1px solid #f6906c; }
+
+.btn-primary:hover {
+  background: #fff;
+  color: #5c5c5c;
+  border: 1px solid #fff; }
+
+#services-2 {
+  border-bottom: 5px solid #ff4040;
+  border-radius: 5px; }
+
+#questions {
+  color: #5c5c5c; }
+  #questions .btn-blue {
+    color: #fff;
+    background: #79a7b9;
+    padding: 10px; }
+    #questions .btn-blue:hover {
+      background: #547b91; }
+
+#district {
+  background: #f2f2f2;
+  color: #547b91; }
+  #district .nav .nav-link {
+    color: #5c5c5c;
+    border: 1px solid #5c5c5c;
+    border-radius: 10px;
+    margin-left: 10px; }
+    #district .nav .nav-link:hover {
+      color: #fff;
+      background: #547b91;
+      border: 1px solid #547b91; }
+
+#footer {
+  background: #1c2427; }
+  #footer a {
+    color: #fff; }
+    #footer a .fab {
+      border-radius: 5px;
+      border: 1px solid #fff;
+      font-size: 30px;
+      padding: 10px;
+      margin-right: 20px; }
+      #footer a .fab:first-child:hover {
+        color: #3b5998; }
+    #footer a .fa-instagram:hover {
+      color: #8a3ab9 !important; }
+  #footer p {
+    color: #fff;
+    text-align: left; }
+  #footer .nav-link {
+    padding-left: 0px; }
+
+@media screen and (max-width: 768px) {
+  #card .nav-item {
+    width: 39% !important;
+    float: left;
+    margin: 5px; }
+  #district li.nav-item {
+    margin: 5px; } }
